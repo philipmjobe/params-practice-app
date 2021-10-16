@@ -1,6 +1,6 @@
 class ParamsController < ApplicationController
   def caps
-    input = params["q"]
+    input = params["input"]
     render json: {message: "#{input.upcase}"}
   end
 end
