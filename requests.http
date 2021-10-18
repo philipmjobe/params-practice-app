@@ -1,6 +1,2 @@
-POST http//:localhost:3000/params.json
+GET http://localhost:3000/params/hello.json
 Content-Type: application/json
-
-{
-  "input": "hello"
-}
